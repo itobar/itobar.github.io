@@ -1,0 +1,190 @@
+---
+title: "Practical Machine Learning: Prediction Assignment"
+author: "Ingrid Tobar"
+date: "7/3/2019"
+output:
+  html_document:
+    keep_md: yes
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1. Project Goal and Methodology
+
+One thing that people regularly do is quantify how much of a particular activity they do, but they rarely quantify how well they do it. In this project, I use data from accelerometers on the belt, forearm, arm, and dumbell of 6 participants to predict the manner in which the participants did the exercise. At the end, the best prediction model is used to predict 20 different test cases.
+
+
+### Data
+
+- TrainData: The training data for this project are available here:
+
+https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv
+
+- TestData: The test data for this project are available here:
+
+https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv
+
+### Model Building
+
+The outcome variable is 'classe', a factor variable with 5 levels. The study participants were asked to perform one set of 10 repetitions of unilateral dumbbell biceps curl in five different ways:
+
+- Class A: Exactly according to the specification
+- Class B: Throwing the elbows to the front
+- Class C: Lifting the dumbbell only halfway
+- Class D: Lowering the dumbbell only halfway
+- Class E: Throwing the hips to the front
+
+The models tested include Decision Tree and Random Forest. The model with the highest accuracy will be chosen as the final model. 
+
+### Cross-validation
+
+In order to perform cross-validation, the TrainData dataset is subsampled without replacement as follows:
+
+- Train_TrainData: 75% of the Training dataset - Used to fit the models
+- Test_TrainData: 25% of the Training dataset - Used to test the models
+
+This process will help identify the most accurate model. That model will be tested on the TestData dataset.
+
+
+### Expected Out of Sample Error
+
+The expected value of the out-of-sample error corresponds to the expected number of missclassified observations/total observations in the TestData dataset, which is equivalent to 1-accuracy found from the cross-validation data set.
+
+## 2. Code and Results
+
+### Package Installation and Loading
+
+Install and load the required packages for the analysis:
+
+```{r}
+#install.packages("caret"); install.packages("randomForest"); install.packages("rpart"); 
+library(lattice); library(ggplot2); library(caret); library(randomForest); library(rpart); library(rpart.plot);
+```
+
+### Data Loading and Preparation
+
+Set the seed to ensure reproducibility, load the data (previously downloaded from source), and remove NA and null values:
+
+```{r}
+
+set.seed(1234)
+TrainData <- read.csv("pml-training.csv", na.strings=c("NA","#DIV/0!", ""))
+TestData <- read.csv("pml-testing.csv", na.strings=c("NA","#DIV/0!", ""))
+
+```
+
+### Exploratory Analysis
+
+Check dimensions, summary statistics (optional), and first 6 rows (optional) of TrainData:
+
+```{r}
+dim(TrainData)
+#summary(TrainData)
+#head(TrainData)
+```
+
+Check dimensions, summary statistics (optional), and first 6 rows (optional) of TestData:
+
+```{r}
+dim(TestData)
+#summary(TestData)
+#head(TestData)
+```
+
+### Data Clean-Up
+
+Delete any columns which contain only missing values and remove variables that are irrelevant to the model: user_name, raw_timestamp_part_1, raw_timestamp_part_,2 cvtd_timestamp, new_window, and  num_window (columns 1 to 7)
+
+```{r}
+TrainData <- TrainData[,colSums(is.na(TrainData)) == 0]
+TestData <- TestData[,colSums(is.na(TestData)) == 0]
+TrainData   <- TrainData[,-c(1:7)]
+TestData <- TestData[,-c(1:7)]
+```
+
+### Subsampling TrainData 
+
+Subsample TrainData dataset without replacement as follows:
+
+- Train_TrainData: 75% of the Training dataset - Used to fit the models
+- Test_TrainData: 25% of the Training dataset - Used to test the models
+
+```{r}
+Partition_TrainData <- createDataPartition(y=TrainData$classe, p=0.75, list=FALSE)
+Train_TrainData <- TrainData[Partition_TrainData, ]
+Test_TrainData <- TrainData[-Partition_TrainData, ]
+```
+
+### Outcome Variable Frequency Distribution
+
+Plot the frequency distribution of the outcome variable ("classe") in the Train_TrainData dataset:
+
+```{r}
+plot(Train_TrainData$classe, col="gray", main="Freq. Dist. of Outcome Variable (classe) in Train_TrainData", xlab="classe", ylab="Frequency")
+```
+
+This plot shows that Outcome Variable A is the most frequent, whereas Outome Variable D is the least frequent. However, all the outcome variables are within the same order of magnitude.
+
+## 3. Model Building and Evaluation
+
+### Build Decision Tree Model
+
+Build a Decision Tree model with the Train_TrainData dataset and plot the Decision Tree
+
+```{r}
+Model_DecTree <- rpart(classe ~ ., data=Train_TrainData, method="class")
+Predict_DecTree <- predict(Model_DecTree, Test_TrainData, type = "class")
+rpart.plot(Model_DecTree, main="Decision Tree Model", extra=100, under=TRUE, faclen=0)
+```
+
+### Decision Tree Model Testing
+
+Test the Decision Tree model on the Test_TrainData dataset and output the Confusion Matrix and Statistics:
+
+```{r}
+DecTree_ConfMatrix <- confusionMatrix(Predict_DecTree, Test_TrainData$classe)
+DecTree_ConfMatrix
+```
+
+The Decision Tree model has an accuracy of **`r round((DecTree_ConfMatrix$overall[1])*100,2)`%**
+
+### Build Random Forest Model
+
+Build a Random Forest model with the Train_TrainData dataset and plot the Random Forest model
+
+```{r}
+Model_RandomForest <- randomForest(classe ~ ., data=Train_TrainData, method="class")
+Predict_RandomForest <- predict(Model_RandomForest, Test_TrainData, type = "class")
+plot(Model_RandomForest, main="Random Forest Model")
+```
+
+### Random Forest Model Testing
+
+Test the Random Forest model on the Test_TrainData dataset and output the Confusion Matrix and Statistics:
+
+```{r}
+RanForest_ConfMatrix <- confusionMatrix(Predict_RandomForest, Test_TrainData$classe)
+RanForest_ConfMatrix
+```
+
+The Random Forest model has an accuracy of **`r round((RanForest_ConfMatrix$overall[1])*100,2)`%**
+
+
+## 4. Model Selection and Predictions
+
+### Select Model by Accuracy
+
+The accuracy of the Random Forest model, **`r round((RanForest_ConfMatrix$overall[1])*100,2)`%** is higher than the accuracy achieved with the Decision Tree model, **`r round((DecTree_ConfMatrix$overall[1])*100,2)`%**, therefore the **Random Forest** model is chosen to predict 20 different test cases. 
+
+
+### Run Model and Predict on Test Data
+
+The Random Forest model is applied to predict results on the 20 observations found in the TestData dataset. The results are as follows:
+
+```{r}
+FinalPredict_RandomForest <- predict(Model_RandomForest, TestData, type = "class")
+FinalPredict_RandomForest
+```
