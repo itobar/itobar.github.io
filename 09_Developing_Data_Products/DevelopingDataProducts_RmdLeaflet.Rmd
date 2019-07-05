@@ -12,19 +12,56 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## 1. Project Goal and Methodology
+## 1. Project Goal
 
-One thing that people regularly do is quantify how much of a particular activity they do, but they rarely quantify how well they do it. In this project, I use data from accelerometers on the belt, forearm, arm, and dumbell of 6 participants to predict the manner in which the participants did the exercise. At the end, the best prediction model is used to predict 20 different test cases.
+Create a webpage using R Markdown that features a map created with Leaflet.
+This webpage is hosted on GitHub pages and the date listed above is the date when it was created.
 
 
 ### Data
 
-- TrainData: The training data for this project are available here:
+The original data is available for download at: https://waterdata.usgs.gov
 
-https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv
+The data displayed on this Leaflet map (Surface Water Stream Gauges for Harris County, TX) is available here:
 
-- TestData: The test data for this project are available here:
+https://github.com/itobar/itobar.github.io/blob/master/09_Developing_Data_Products/HarrisCounty_STGauges.csv
 
-https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv
 
-### Model Building
+## 2. Code
+
+### Package Installation and Loading
+
+Install and load the required Leaflet package for creating maps:
+
+```{r}
+#install.packages("leaflet")
+library(leaflet)
+```
+
+### Data Loading and Inspection
+
+Load the data and inspect the first 6 rows:
+
+```{r}
+
+STGauges <- read.csv("HarrisCounty_STGauges.csv")
+head(STGauges)
+```
+
+## 3. Map Results
+
+### Create Map with Leaflet
+
+The following map shows **Surface Water Stream Gauges for Harris County, TX**.
+Stream gauges are colored by Site Agency (USGS or TX003) and a hyperlink to access data for each gauge is provided in the popup.
+
+```{r}
+cof <- colorFactor(c("orange", "blue"), domain=c("USGS", "TX003"))
+m <- leaflet(STGauges) %>% addTiles%>% 
+  setView(-95.3698, 29.7604, zoom = 10) %>% 
+  addCircleMarkers(~SiteLongitude, ~SiteLatitude, popup= ~paste("<h3 style='color: blue'>",SiteName,"</h3>","<b>Site Number:</b>",SiteNumber,"<br>","<b>Link:</b>", "<a href = ", SiteNWISURL, "> Access Data </a>", sep=" "), weight = 4, radius=4, 
+                 color=~cof(SiteAgency), stroke = TRUE, fillOpacity = 0.8) %>%
+  addLegend("bottomright", colors= c("orange", "blue"), labels=c("USGS", "TX003"), title="Site Agency")
+
+m
+```
