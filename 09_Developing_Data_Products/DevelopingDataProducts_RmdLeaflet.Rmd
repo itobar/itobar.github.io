@@ -56,12 +56,12 @@ The following map shows **Surface Water Stream Gauges for Harris County, TX**.
 Stream gauges are colored by Site Agency (USGS or TX003) and a hyperlink to access data for each gauge is provided in the popup.
 
 ```{r}
-cof <- colorFactor(c("orange", "blue"), domain=c("USGS", "TX003"))
+cof <- colorFactor(c("dark green", "blue"), domain=c("TX003", "USGS"))
 m <- leaflet(STGauges) %>% addTiles%>% 
   setView(-95.3698, 29.7604, zoom = 10) %>% 
   addCircleMarkers(~SiteLongitude, ~SiteLatitude, popup= ~paste("<h3 style='color: blue'>",SiteName,"</h3>","<b>Site Number:</b>",SiteNumber,"<br>","<b>Link:</b>", "<a href = ", SiteNWISURL, "> Access Data </a>", sep=" "), weight = 4, radius=4, 
                  color=~cof(SiteAgency), stroke = TRUE, fillOpacity = 0.8) %>%
-  addLegend("bottomright", colors= c("orange", "blue"), labels=c("USGS", "TX003"), title="Site Agency")
+  addLegend("bottomright", colors= c("green", "blue"), labels=c("TX003", "USGS"), title="Site Agency")
 
 m
 ```
