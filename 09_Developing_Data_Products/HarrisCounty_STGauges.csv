@@ -1,0 +1,124 @@
+SiteNumber	SiteName	SiteCategory	SiteAgency	SiteLongitude	SiteLatitude	SiteNWISURL
+08067074	CWA Canal at Thompson Rd nr Baytown TX	ST	USGS	-95.0323972	29.80674444	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08067074
+08067510	Cedar Bayou nr Baytown TX	ST	USGS	-94.9165921	29.77022506	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08067510
+08067520	Goose Ck nr McNair TX	ST	USGS	-95.0043725	29.8002254	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08067520
+08067525	Goose Ck at Baytown TX	ST	USGS	-94.9996503	29.77078197	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08067525
+08068325	Willow Ck nr Tomball TX	ST	USGS	-95.5466084	30.10549526	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08068325
+08068520	Spring Ck at Spring TX	ST	USGS	-95.4060488	30.0921624	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08068520
+08068700	Cypress Ck at Sharp Rd nr Hockley TX	ST	USGS	-95.840229	29.92105823	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08068700
+08068720	Cypress Ck at Katy-Hockley Rd nr Hockley TX	ST	USGS	-95.8082835	29.9502237	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08068720
+08068740	Cypress Ck at House-Hahl Rd nr Cypress TX	ST	USGS	-95.7177249	29.959112	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08068740
+08068750	Cypress Ck nr Cypress TX	ST	USGS	-95.6782792	29.95661198	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08068750
+08068780	Little Cypress Ck nr Cypress TX	ST	USGS	-95.6974463	30.01605437	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08068780
+08068800	Cypress Ck at Grant Rd nr Cypress TX	ST	USGS	-95.5985545	29.97355566	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08068800
+08068900	Cypress Ck at Stuebner-Airline Rd nr Westfield TX	ST	USGS	-95.511885	30.00660994	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08068900
+08069000	Cypress Ck nr Westfield TX	ST	USGS	-95.428827	30.0357753	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08069000
+08069200	Cypress Ck nr Humble TX	ST	USGS	-95.3299353	30.03049736	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08069200
+08069500	W Fk San Jacinto Rv nr Humble TX	ST	USGS	-95.2579888	30.02716385	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08069500
+08071300	Luce Bayou nr Huffman TX	ST	USGS	-95.0843743	30.09216088	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08071300
+08071330	Luce Bayou at Huffman Cleveland Rd nr Huffman TX	ST	USGS	-95.0997722	30.05558889	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08071330
+08071500	San Jacinto Rv nr Huffman TX	ST	USGS	-95.1335413	29.99466384	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08071500
+08072020	Lk Houston Plant Intake at Galena Park TX	ST	USGS	-95.216323	29.7338393	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08072020
+08072050	San Jacinto Rv nr Sheldon TX	ST	USGS	-95.0938189	29.87633426	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08072050
+08072100	San Jacinto Rv at Banana Bend TX	ST	USGS	-95.1057638	29.84494649	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08072100
+08072600	Buffalo Bayou at State Hwy 6 nr Addicks TX	ST	USGS	-95.6431667	29.76938056	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08072600
+08072680	S Mayde Ck at Heathergold Dr nr Addicks TX	ST	USGS	-95.7096111	29.8051111	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08072680
+08072700	S Mayde Ck nr Addicks TX	ST	USGS	-95.692447	29.80106159	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08072700
+08072730	Bear Ck nr Barker TX	ST	USGS	-95.6868912	29.8307828	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08072730
+08072760	Langham Ck at W Little York Rd nr Addicks TX	ST	USGS	-95.646612	29.86717035	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08072760
+08072800	Langham Ck nr Addicks TX	ST	USGS	-95.6257783	29.8357824	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08072800
+08073100	Langham Ck at Addicks Res Outflow nr Addicks TX	ST	USGS	-95.6241119	29.79050608	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08073100
+08073500	Buffalo Bayou nr Addicks TX	ST	USGS	-95.6057782	29.7618958	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08073500
+08073600	Buffalo Bayou at W Belt Dr Houston TX	ST	USGS	-95.5577213	29.76217336	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08073600
+08073700	Buffalo Bayou at Piney Point TX	ST	USGS	-95.5235538	29.7468959	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08073700
+08073898	Neimans Bayou at IH 10 Houston TX	ST	USGS	-95.4738889	29.78333333	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08073898
+08073900	Neimans Bayou at Memorial Dr Houston TX	ST	USGS	-95.4730556	29.77888889	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08073900
+08074000	Buffalo Bayou at Houston TX	ST	USGS	-95.4085505	29.76022829	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074000
+08074020	Whiteoak Bayou at Alabonson Rd Houston TX	ST	USGS	-95.4804961	29.87078073	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074020
+08074100	Cole Ck at Guhn Rd Houston TX	ST	USGS	-95.5154972	29.8568924	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074100
+08074150	Cole Ck at Deihl Rd Houston TX	ST	USGS	-95.4879965	29.8513369	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074150
+08074200	Brickhouse Gully at Clarblak Houston TX	ST	USGS	-95.5285533	29.83161549	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074200
+08074250	Brickhouse Gully at Costa Rica St Houston TX	ST	USGS	-95.469385	29.82800424	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074250
+08074500	Whiteoak Bayou at Houston TX	ST	USGS	-95.3971612	29.77522777	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074500
+08074540	Little Whiteoak Bayou at Trimble St Houston TX	ST	USGS	-95.3680556	29.79277778	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074540
+08074550	Little Whiteoak Bayou at Houston TX	ST	USGS	-95.3685491	29.79272709	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074550
+08074598	Whiteoak Bayou at Main St Houston TX	ST	USGS	-95.358549	29.76661676	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074598
+08074600	Buffalo Bayou at Main St Houston TX	ST	USGS	-95.3591046	29.7652279	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074600
+08074610	Buffalo Bayou at McKee St Houston TX	ST	USGS	-95.35216	29.76606119	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074610
+08074620	Buffalo Bayou at Hirsch St Houston TX	ST	USGS	-95.3291038	29.75995017	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074620
+08074630	Buffalo Bayou at Lockwood Dr Houston TX	ST	USGS	-95.3199369	29.75606136	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074630
+08074700	Buffalo Bayou at 69th St Houston TX	ST	USGS	-95.2977141	29.75439464	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074700
+08074710	Buffalo Bayou at Turning Basin Houston TX	ST	USGS	-95.2910473	29.74939477	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074710
+08074750	Brays Bayou at Addicks-Clodine Rd Houston TX	ST	USGS	-95.6607799	29.71745318	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074750
+08074760	Brays Bayou at Alief TX	ST	USGS	-95.583	29.7091197	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074760
+08074780	Keegans Bayou at Keegan Rd nr Houston TX	ST	USGS	-95.5952228	29.66551017	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074780
+08074800	Keegans Bayou at Roark Rd nr Houston TX	ST	USGS	-95.5621664	29.65662136	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074800
+08074810	Brays Bayou at Gessner Dr Houston TX	ST	USGS	-95.5282765	29.6727317	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074810
+08074900	Willow Waterhole Br at Landsdowne Houston TX	ST	USGS	-95.4866088	29.6505099	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08074900
+08075000	Brays Bayou at Houston TX	ST	USGS	-95.412162	29.69717469	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075000
+08075100	Brays Bayou at Scott St Houston TX	ST	USGS	-95.3566048	29.70995178	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075100
+08075110	Brays Bayou at MLK Jr Blvd Houston TX	ST	USGS	-95.3388889	29.71416667	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075110
+08075120	Brays Bayou at Lidstone Ave Houston TX	ST	USGS	-95.3227149	29.71217376	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075120
+08075300	Sims Bayou at Carlsbad St Houston TX	ST	USGS	-95.4991093	29.62606635	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075300
+08075400	Sims Bayou at Hiram Clarke St Houston TX	ST	USGS	-95.4460522	29.61884399	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075400
+08075470	Sims Bayou at MLK Blvd Houston TX	ST	USGS	-95.3371599	29.64523134	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075470
+08075500	Sims Bayou at Houston TX	ST	USGS	-95.2893807	29.67439687	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075500
+08075550	Berry Bayou at Gilpin St Houston TX	ST	USGS	-95.2229899	29.64245279	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075550
+08075600	Berry Bayou Trib at Globe St Houston TX	ST	USGS	-95.2468794	29.6502306	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075600
+08075605	Berry Bayou at Nevada St Houston TX	ST	USGS	-95.2291011	29.65661915	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075605
+08075650	Berry Bayou at Forest Oaks St Houston TX	ST	USGS	-95.2438238	29.67661875	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075650
+08075700	Berry Ck at Galveston Rd Houston TX	ST	USGS	-95.2532685	29.6832853	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075700
+08075720	Plum Ck at Houston TX	ST	USGS	-95.2835471	29.7032849	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075720
+08075730	Vince Bayou at Pasadena TX	ST	USGS	-95.216323	29.69467363	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075730
+08075740	Little Vince at Pasadena TX	ST	USGS	-95.2024337	29.71078426	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075740
+08075750	Hunting Bayou Trib at Cavalcade St Houston TX	ST	USGS	-95.3341036	29.8002267	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075750
+08075760	Hunting Bayou at Falls St Houston TX	ST	USGS	-95.3307701	29.8063376	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075760
+08075763	Hunting Bayou at Hoffman St Houston TX	ST	USGS	-95.3132696	29.80883745	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075763
+08075770	Hunting Bayou at IH 610 Houston TX	ST	USGS	-95.2679907	29.79328217	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075770
+08075780	Greens Bayou at Cutten Rd nr Houston TX	ST	USGS	-95.5196633	29.94911178	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075780
+08075900	Greens Bayou nr US Hwy 75 nr Houston TX	ST	USGS	-95.4179936	29.95688886	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08075900
+08076000	Greens Bayou nr Houston TX	ST	USGS	-95.3068796	29.9182784	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08076000
+08076005	Greens Bayou Trib at Smith Rd nr Houston TX	ST	USGS	-95.2875	29.93055556	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08076005
+08076180	Garners Bayou nr Humble TX	ST	USGS	-95.2339608	29.93386089	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08076180
+08076200	Halls Bayou at Deertrail St Houston TX	ST	USGS	-95.4227164	29.90216837	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08076200
+08076500	Halls Bayou at Houston TX	ST	USGS	-95.3349365	29.86189143	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08076500
+08076530	Halls Bayou at Parker Rd Houston TX	ST	USGS	-95.305769	29.85661368	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08076530
+08076535	Allwood St Trib Halls Bayou Houston TX	ST	USGS	-95.3113247	29.8546693	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08076535
+08076540	Halls Bayou at Homestead Blvd Houston TX	ST	USGS	-95.3004911	29.85328043	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08076540
+08076700	Greens Bayou at Ley Rd Houston TX	ST	USGS	-95.2332671	29.8371695	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08076700
+08076800	Buffalo Bayou Trib at Pasadena TX	ST	USGS	-95.1665994	29.72550596	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08076800
+08076850	Patrick Bayou at Deer Pk TX	ST	USGS	-95.1149313	29.71078377	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08076850
+08076900	Carpenters Bayou nr Channelview TX	ST	USGS	-95.1560434	29.77272687	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08076900
+08076997	Clear Ck at Mykawa St nr Pearland TX	ST	USGS	-95.2974366	29.5968991	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08076997
+08076997	TCEQQW Clear Ck at Mykawa St nr Pearland TX	ST	TX003	-95.2974366	29.5968991	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08076997
+08077100	Clear Ck Trib at Hall Rd Houston TX	ST	USGS	-95.2782693	29.60273214	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08077100
+08077250	Clear Ck at Scarsdale Blvd nr Friendswood TX	ST	USGS	-95.2362639	29.55975	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08077250
+08077300	Clear Ck BMP Inflow nr Friendswood TX	ST	USGS	-95.2179444	29.56419444	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08077300
+08077310	Clear Ck BMP Outflow nr Friendswood TX	ST	USGS	-95.2174306	29.56120833	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08077310
+08077320	Clear Ck at Dixie Farm Rd nr Friendswood TX	ST	USGS	-95.215875	29.55777778	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08077320
+08077510	Clear Ck abv Turkey Ck nr Friendswood TX	ST	USGS	-95.199378	29.5602323	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08077510
+08077540	Clear Ck at Friendswood TX	ST	USGS	-95.196878	29.54217714	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08077540
+08077612	Armand Bayou at Line Dr nr Pasadena TX	ST	USGS	-95.1342778	29.65570833	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08077612
+08077614	Armand Bayou NE BMP Inflow Pasadena TX	ST	USGS	-95.1332361	29.6539722	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08077614
+08077616	Armand Bayou NE BMP Outflow Pasadena TX	ST	USGS	-95.1297222	29.651	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08077616
+08077618	Armand Bayou at Fairmont Pkwy nr Pasadena TX	ST	USGS	-95.1292639	29.6506111	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08077618
+08077620	Armand Bayou nr Genoa TX	ST	USGS	-95.1143756	29.6341185	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08077620
+08077630	Horsepen Bayou at Bay Area Blvd Houston TX	ST	USGS	-95.1035418	29.5835637	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=08077630
+293346095041900	Armand Bayou at Nasa Pkwy nr Pasedena TX	ST	USGS	-95.0719444	29.56277778	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=293346095041900
+293445095040900	Armand Bayou abv Mud Lk nr Pasedena TX	ST	USGS	-95.0693	29.5793	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=293445095040900
+293512095044400	Armand Bayou blw confl Horsepen Bayou PasedenaTX	ST	USGS	-95.0789	29.5867	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=293512095044400
+293519095045900	Armand Bayou abv confl Horsepen Bayou PasadenaTX	ST	USGS	-95.0830472	29.58847778	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=293519095045900
+293546095052701	Armand Bayou at Bay Area Blvd Pasadena TX	ST	USGS	-95.0910415	29.5963411	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=293546095052701
+293614095053700	Armand Bayou abv Big Island Slough nr Pasedena TX	ST	USGS	-95.0935	29.6038	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=293614095053700
+293645095054601	Armand Bayou at Oil Field Rd Pasadena TX	ST	USGS	-95.0963195	29.61272979	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=293645095054601
+293847095074501	Armand Bayou at Fairmont Pkwy Pasadena TX	ST	USGS	-95.1292778	29.64994444	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=293847095074501
+294534095260300	Buffalo Bayou at Memorial Park at Houston TX	ST	USGS	-95.4341667	29.75944444	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=294534095260300
+294613095371500	Buffalo Bayou at N Eldridge Pkwy at Houston TX	ST	USGS	-95.6208333	29.77027778	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=294613095371500
+294636095111400	Goodyear Ck at Uvalde Rd nr Houston TX	ST	USGS	-95.1873056	29.77655556	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=294636095111400
+294733095034100	San Jacinto Rv at IH10 nr Highlands TX	ST	USGS	-95.0613889	29.7925	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=294733095034100
+294849095374000	Langham Ck at Patterson Rd nr Houston TX	ST	USGS	-95.6277778	29.8136111	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=294849095374000
+295237095293600	Whiteoak Bayou at N Houston Rosslyn Rd Houston T	ST	USGS	-95.4933333	29.87694444	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=295237095293600
+295431095341200	Whiteoak Bayou at W Rd nr Houston TX	ST	USGS	-95.57	29.9086111	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=295431095341200
+295628095274400	Greens Bayou at Veteran Memorial Dr. nr Houston T	ST	USGS	-95.4622222	29.9411111	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=295628095274400
+300119095283800	Cypress Ck at Kuykendahl Rd nr Houston TX	ST	USGS	-95.4772222	30.02194444	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=300119095283800
+300512095454600	Spring Ck at Robert Cemetery Rd nr Hockley TX	ST	USGS	-95.7627778	30.08666667	https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&site_no=300512095454600
