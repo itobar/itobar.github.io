@@ -1,0 +1,37 @@
+---
+title: 'Week 3: R Markdown Presentation & Plotly'
+author: "Ingrid Tobar"
+date: "7/9/2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Instructions
+
+- Create a web page presentation using R Markdown that features a plot created with Plotly.
+- Host the webpage on either GitHub Pages, RPubs, or NeoCities. 
+- The webpage must contain the date when it was created and a plot created with Plotly. 
+- The next slide shows a **Grouped Box Plot** of the diamond dataset, showing price (y axis) vs clarity (x axis), grouped by cut (Fair, Good, Very Good, Premium, Ideal)
+
+## Grouped Box Plot
+
+```{r message=FALSE, warning=FALSE}
+library(plotly)
+p <- plot_ly(ggplot2::diamonds, x = ~cut, y = ~price, color = ~clarity, type = "box") %>%
+  layout(boxmode = "group")
+p
+```
+
+<font size="3">**Date created:** July 9, 2019</font>
+
+<font size="3">**Author:** Ingrid Tobar</font>
+
+## End of Slide Show
+
+
+This is the last slide of the slide show
+
+Thanks!
